@@ -74,6 +74,7 @@
       </el-table>
     </el-main>
   </el-container>
+  <div class="border border-black border-solid bg-red-600">hello world from montes</div>
 </el-container>
 </template>
 
