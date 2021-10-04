@@ -3,8 +3,8 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import _ from 'lodash'
-
 import db from './database.js'
+import "./assets/index.css"
 
 async function test(){
   try {
