@@ -85,3 +85,8 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
+<Requirements>
+   <Sets DefaultMinVersion="1.4">
+      <Set Name="ExcelApi" MinVersion="1.3"/>
+   </Sets>
+</Requirements>
