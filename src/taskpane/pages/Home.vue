@@ -22,6 +22,7 @@ import AcordeonHojas from '../components/AcordeonHojas.vue'
         tiposHoja: []
       }
     },
+
     created(){
       Excel.run(async (context) => {
         // var sheets = context.workbook.worksheets;
@@ -62,5 +63,6 @@ import AcordeonHojas from '../components/AcordeonHojas.vue'
     },
     methods: {}
   };
+  
 </script>
 
