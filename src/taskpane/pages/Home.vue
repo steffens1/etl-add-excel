@@ -24,6 +24,7 @@ import AcordeonHojas from '../components/AcordeonHojas.vue'
     },
 
     created(){
+      console.log(Excel.QueryCollection)
       Excel.run(async (context) => {
         // var sheets = context.workbook.worksheets;
         // var arraySheets = sheets.load("items/name");
